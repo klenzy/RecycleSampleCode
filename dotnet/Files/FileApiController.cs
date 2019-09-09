@@ -2,19 +2,19 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Domain.Files;
-using Sabio.Models.Requests.Files;
-using Sabio.Services;
-using Sabio.Web.Controllers;
-using Sabio.Web.Core.Configs;
-using Sabio.Web.Models.Responses;
+using Models;
+using Models.Domain;
+using Models.Domain.Files;
+using Models.Requests.Files;
+using Services;
+using Web.Controllers;
+using Web.Core.Configs;
+using Web.Models.Responses;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Sabio.Web.Api.Controllers
+namespace Web.Api.Controllers
 {
     [Route("api/files")]
     [ApiController]
